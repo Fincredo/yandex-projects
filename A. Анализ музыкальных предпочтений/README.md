@@ -1,39 +1,39 @@
-# Анализ музыкальных предпочтений
+# Analysis of musical preferences
 
-_Модуль "Базовый Python"_
-
-
-## Задача проекта
-
-На данных музыкального интернет-сервиса сравнить поведение пользователей Москвы и Санкт-Петербурга: зависимость активности от дня недели, а также предпочтения по музыкальным жанрам.
+_Basic Python Module_
 
 
-## Описание проекта
+## Project goal
 
-На основе данных, предоставленных сервисом Яндекс.Музыка, необходимо сравнить поведение пользователей двух столиц.
-Цель исследования — проверить три гипотезы:
-  1. Активность пользователей в Москве и Петербурге зависит от дня недели, причём по-разному.
-  2. В понедельник утром в Москве и Петербурге преобладают разные музыкальные жанры. То же касается и вечера пятницы.
-  3. В целом в Москве чаще слушают поп-музыку, в Петербурге — русский рэп.
+Using data from an online music service to compare the behavior of Moscow and St. Petersburg users: the dependence of the users’ activity on day of week, as well as their preferences for music genres.
 
 
-## Этапы работы
+## Project description
 
-1.  Изучение данных.
-2.  Предобработка данных (стиль заголовков, пропуски, полные и неявные дубликаты).
-3.  Проверка гипотез (активность пользователей, жанры в начале и конце недели, популярные жанры в двух столицах).
-4.  Итоги исследования.
-
-
-## Результат
-
-Проверены все три гипотезы, первая из которых подтвердилась полностью, вторая - частично, третья - не подтвердилась.
+Based on the data provided by the Yandex.Music service, it is necessary to compare the behavior of users of the two capitals. 
+The aim of the study is to test three hypotheses:
+  1.	The user activity in Moscow and St. Petersburg depends on day of week, and in different ways.
+  2.	Monday mornings in Moscow and St. Petersburg are dominated by different musical genres. The same is true for Friday evenings.
+  3.	In general, in Moscow people listen to pop music more often, and in St. Petersburg people more often listen to Russian rap.
 
 
-## Библиотеки и методы
+## Work stages
 
-- Python
-- pandas
-- Индексация
-- Группировка
-- Сортировка
+1.	Data research
+2.	Data preprocessing (header style, omissions, full and implicit duplicates)
+3.	Hypothesis testing (user activity, genres at the beginning and at end of week, genres popular in both capitals)
+4.	Results of the research
+
+
+## Results
+
+All three hypotheses were tested, the first of which was fully confirmed, the second was partially confirmed, and the third was not confirmed.
+
+
+## Libraries and methods
+
+•	Python
+•	pandas
+•	Indexing
+•	Grouping
+•	Sorting
